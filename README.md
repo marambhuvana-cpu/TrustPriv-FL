@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1260041372.svg)](https://doi.org/10.5281/zenodo.20552880)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20552880.svg)](https://doi.org/10.5281/zenodo.20552880)
 # TrustPriv-FL
 
 ## TrustPriv-FL: An Artificial Intelligence Framework with BudgetPolicyNet for Adaptive Differential Privacy Budget Optimisation in Federated Learning
