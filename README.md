@@ -185,7 +185,7 @@ https://www.cs.toronto.edu/~kriz/cifar.html
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your_username/TrustPriv_FL.git
+git clone https://github.com/marambhuvana-cpu/TrustPriv-FL
 cd TrustPriv_FL
 ```
 
