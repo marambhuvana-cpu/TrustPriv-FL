@@ -1,0 +1,45 @@
+experiment:
+  dataset: MNIST          # MNIST, FashionMNIST, CIFAR10
+  seed: 42
+  device: auto
+  output_dir: results
+
+federated:
+  num_clients: 20
+  num_rounds: 30
+  participation_rate: 0.3
+  local_epochs: 1
+  batch_size: 64
+  lr: 0.001
+  noniid_alpha: 0.5
+  straggler_rate: 0.1
+  num_groups: 4
+  aggregator: fedavg      # fedavg, median, trimmed_mean
+
+privacy:
+  enable_dp: true
+  total_epsilon: 8.0
+  delta: 1.0e-5
+  min_epsilon: 0.01
+  max_round_epsilon: 0.4
+  clip_norm: 1.0
+  base_noise_multiplier: 1.0
+  telemetry_noise_std: 0.01
+
+policy:
+  mode: trustpriv          # trustpriv, static, heuristic, personalized, fedavg
+  hidden1: 128
+  hidden2: 64
+  dropout: 0.2
+  lr: 0.001
+  gamma: 0.99
+  clip_ratio: 0.2
+  value_coef: 0.5
+  entropy_coef: 0.01
+  privacy_coef: 0.25
+  fairness_coef: 0.5
+  update_every: 1
+  ppo_epochs: 2
+
+model:
+  num_classes: 10
