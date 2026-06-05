@@ -460,12 +460,4 @@ MIT License
 
 ---
 
-# Contact
 
-For questions, bug reports, or collaboration:
-
-Name: Your Name
-
-Email: [your_email@example.com](mailto:your_email@example.com)
-
-GitHub: https://github.com/your_username
